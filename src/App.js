@@ -1,9 +1,24 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./Nav";
+import Main from './Main'
+
+function Home(){
+  return (
+    <div className="h-screen w-full App overflow-auto touch-auto">
+      <Nav/>  
+      <Main />
+    </div>
+  );
+}
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <BrowserRouter>
+      <Routes><Route path="/" element={<Home />} />
+          {/* <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
