@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+import Product from "./products";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <Product/> 
   );
 }
 
