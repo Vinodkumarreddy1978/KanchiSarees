@@ -6,8 +6,7 @@
 }
 
 .App {
-  background-color: rgb(232, 192, 136);
-  position: static;
+  background-color: linear-gradient(right, #ff0000, #00ff00);
   scroll-behavior: smooth;
 }
 
@@ -27,4 +26,8 @@
     display: none;
   }
   
+}
+.Product{
+  background-color: rgb(232, 192, 136);
+  position: static;
 }

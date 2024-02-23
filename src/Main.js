@@ -7,7 +7,7 @@ import saree4 from './images/IMG-20240222-WA0005.jpg'
 
 function GalleryItem({src}){
     return(
-        <div className='overflow-hidden border border-0 rounded-lg'>
+        <div className='overflow-hidden lg:overflow-hidden border border-0 rounded-lg'>
             <img src={src} alt={src} width='250rem' height='500px' className='border border-0 rounded-lg transition-transform duration-300 hover:scale-125 '/>
         </div>
     )
@@ -22,7 +22,7 @@ function Main() {
                 <h3 className='text-center font-bold text-4xl'>Welcome To</h3>
             </div>
             <div className='flex justify-center flex-col w-full p-6'>
-                <img src={Logo}  className='MainLogo w-full' alt='logo' />
+                <img src={Logo}  className='MainLogo w-full border border-0 rounded-xl' alt='logo' />
             </div>
             <div className='p-6'>
                 <h2 className='font-bold text-3xl'>About Us</h2>
@@ -30,11 +30,11 @@ function Main() {
             </div>
             <div className='w-full p-6'>
                 <h2 className='font-bold text-3xl'>Our Top  Sarees</h2>
-                <div className='gallery w-full h-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 lg:gap-10 md:gap-10 sm:flex sm:flex-col sm:justify-center sm:gap-10px   '>
+                <div className='gallery w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-6 p-10'>
                     {images.map((image) => <GalleryItem key={image} src={image}/>)}
                 </div>
 
-            </div>
+            </div>  
             <div className='h-50 w-full bg-zinc-900'>
                 
             </div>
