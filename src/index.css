@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.App,.product{
+  /* background-color: rgb(232, 192, 136); */
+  background-image: radial-gradient(yellow,#F27900);
+  background-size: cover;
+  position: static;
+  scroll-behavior: smooth;
+}
+
+/* .Nav{
+  background-color:#ffffff;
+  
+}  */
+
+.Nav h1{
+  border-radius: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+}
+
+
+.nav-links ul li::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(251 191 36);
+  margin: auto;
+  display: block;
+  transition: 0.6s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}

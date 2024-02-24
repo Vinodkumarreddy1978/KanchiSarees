@@ -1,8 +1,10 @@
 import React from 'react';
-
+import Nav from './Nav';
 const Contact = () => {
   return (
-    <div className="container mx-auto mt-8">
+    <div>
+        <Nav/>
+    <div className="container mx-auto mt-8 border-solid border-grey-900 border-2">
       <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
       <form className="max-w-md">
         <div className="mb-4">
@@ -14,7 +16,7 @@ const Contact = () => {
             id="name"
             name="name"
             className="mt-1 p-2 w-full border rounded-md"
-            placeholder="John Doe"
+            placeholder="enter name"
             required
           />
         </div>
@@ -28,7 +30,7 @@ const Contact = () => {
             id="email"
             name="email"
             className="mt-1 p-2 w-full border rounded-md"
-            placeholder="john@example.com"
+            placeholder="enter email"
             required
           />
         </div>
@@ -54,6 +56,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
+    </div>
     </div>
   );
 };
