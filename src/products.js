@@ -14,9 +14,9 @@ import Nav from './Nav';
 
 const ProductCard = ({ name, rating, price, imageUrl }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer z-0">
         <div className='overflow-hidden flex'>
-      <img src={imageUrl} alt={name} className="w-full h-80 object-cover transition-transform hover:scale-110" />
+      <img src={imageUrl} alt={name} className="w-full h-80 object-cover transition-transform transition-all duration-500 hover:scale-125" />
       </div>
       <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">{name}</div>

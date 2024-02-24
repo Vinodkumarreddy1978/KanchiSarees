@@ -7,8 +7,11 @@ import saree4 from './images/IMG-20240222-WA0005.jpg'
 
 function GalleryItem({src}){
     return(
-        <div className='overflow-hidden lg:overflow-hidden border border-0 rounded-lg'>
-            <img src={src} alt={src} width='250rem' height='500px' className='border border-0 rounded-lg transition-transform duration-300 hover:scale-125 '/>
+        <div className='text-center m-10 rounded-md z-0'>
+            <div className='rounded-lg overflow-hidden block'>
+            <img src={src} alt={src}  className='border border-0 rounded-lg hover:scale-125 ease-in duration-500 cursor-pointer'/>
+
+            </div>
         </div>
     )
 }
@@ -35,8 +38,8 @@ function Main() {
                 </div>
 
             </div>  
-            <div className='h-50 w-full bg-zinc-900'>
-                
+            <div className='h-screen w-full bg-zinc-900 text-white p-10'>
+                {text}
             </div>
         </div>
     )
