@@ -27,9 +27,11 @@ const Contact = () => {
               <input type="email" id="email" name="email" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm bg-amber-200 border border-gray-300 h-10 rounded-md" />
             </div>
             <div>
-              <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <Link to="/">Submit</Link>
-              </button>
+              <Link to="/KanchiSarees">
+                <button type='submit' className='w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>
+                  Submit
+                </button>
+              </Link>
             </div>
           </form>
         </div>

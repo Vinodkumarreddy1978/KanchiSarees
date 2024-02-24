@@ -14,7 +14,7 @@ import Nav from './Nav';
 
 const ProductCard = ({ name, rating, price, imageUrl }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer z-0">
+    <div className="max-w-sm rounded-lg overflow-hidden shadow-2xl border-2 border-amber-950 z-0">
         <div className='overflow-hidden flex'>
       <img src={imageUrl} alt={name} className="w-full h-80 object-cover transition-transform transition-all duration-500 hover:scale-125" />
       </div>
@@ -23,11 +23,6 @@ const ProductCard = ({ name, rating, price, imageUrl }) => {
 
         <div className="mb-2">
           <span className="font-bold text-gray-600">Rating:</span> {rating}/5
-        </div>
-        <div>
-        <button className="bg-violet-500 w-20 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-2 rounded-lg text-white float-right">
-            Cart
-          </button>
         </div>
         <div className="text-gray-700"> 
         <button className='bg-violet-500 hover:bg-violet-600 active:bg-violet-700 
@@ -43,6 +38,8 @@ function Image(name, rating, price, url){
   this.price = price;
   this.url = url;
 }
+
+
 
 function Product()
 {
@@ -61,7 +58,7 @@ function Product()
   return(
     <div className="Product overflow-auto touch-auto">
       <Nav />
-      <div className="flex min-h-screen grid grid-cols-1 ml-2 gap-10 lg:grid-cols-3 lg:ml-20 mt-24">
+      <div className="flex min-h-screen grid grid-cols-1 ml-2 gap-10 lg:grid-cols-3 lg:ml-20 mt-24 mb-24">
           {images.map(image => <div><ProductCard name={image.name} rating={image.rating} price={image.price} imageUrl={image.url}/></div>)}
       </div> 
     </div>
