@@ -15,10 +15,11 @@ function Home(){
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes><Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<Product />} /> 
+    <BrowserRouter basename="">
+      <Routes>
+        <Route path="/KanchiSarees" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Product />} /> 
       </Routes>
     </BrowserRouter>
   );

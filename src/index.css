@@ -5,29 +5,35 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
-.App {
-  background-color: linear-gradient(right, #ff0000, #00ff00);
+.App,.Product, .Contact{
+  /* background-color: rgb(232, 192, 136); */
+  background-image: radial-gradient(yellow,#F27900);
+  background-size: cover;
+  position: static;
   scroll-behavior: smooth;
 }
 
-.Nav{
-  background-color: rgb(236, 157, 47);
-} 
+/* .Nav{
+  background-color:#ffffff;
+  
+}  */
 
 .Nav h1{
-  padding: 4px;
   border-radius: 10px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(243, 194, 48);
+  color: rgb(255, 255, 255);
 }
 
-@media (max-width:640px) {
-  .Logo{
-    display: none;
-  }
-  
+
+.nav-links ul li::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(251 191 36);
+  margin: auto;
+  display: block;
+  transition: 0.6s;
 }
-.Product{
-  background-color: rgb(232, 192, 136);
-  position: static;
+.nav-links ul li:hover::after{
+  width: 100%;
 }
