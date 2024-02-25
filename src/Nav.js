@@ -21,7 +21,7 @@ function Nav() {
           </Link>
         </div>
 
-        <h1 className={`lg:text-3xl font-bold uppercase md:text-xl sm:text-sm`}>Shri Vaibhavi Silks</h1>
+        <h1 className={`lg:text-3xl font-bold uppercase md:text-xl sm:text-sm radient`}>Shri Vaibhavi Silks</h1>
 
         <div className="block lg:hidden absolute left-5">
           <button onClick={toggleMenu} className="text-white focus:outline-none">

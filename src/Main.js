@@ -28,7 +28,7 @@ function Main() {
         <div className='w-full Main'>
             <div className='h-screen flex flex-col justify-center items-center mainbg text-white'>
                 <div className=''>
-                    <h1 className='text-center font-bold text-4xl lg:text-6xl'>SHRI VAIBHAVI SILKS</h1>
+                    <h1 className='text-center font-bold text-4xl lg:text-6xl mt-10'>SHRI VAIBHAVI SILKS</h1>
                     <h1 className='text-center text-xl italic p-6 lg:text-2xl'><span className='font-bold'>Sarees</span> truly are dresses with a soul</h1>
                 </div>
                 <div className='flex justify-center w-full'>
