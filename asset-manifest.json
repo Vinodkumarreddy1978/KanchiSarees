@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/KanchiSarees/static/css/main.e4deb5a1.css",
+    "main.js": "/KanchiSarees/static/js/main.50e85d2d.js",
+    "static/js/511.bab9b3b7.chunk.js": "/KanchiSarees/static/js/511.bab9b3b7.chunk.js",
+    "static/media/saree8.jpg": "/KanchiSarees/static/media/saree8.7225c7cd9d9766b6e945.jpg",
+    "static/media/saree1.jpg": "/KanchiSarees/static/media/saree1.beb1db5ed8e0b5ae2298.jpg",
+    "static/media/saree3.jpg": "/KanchiSarees/static/media/saree3.efacd40aaf8dcd0680cc.jpg",
+    "static/media/saree9.jpg": "/KanchiSarees/static/media/saree9.70aa35c496048f6cac0d.jpg",
+    "static/media/saree10.jpg": "/KanchiSarees/static/media/saree10.cda9b8044336cf9f7102.jpg",
+    "static/media/saree6.jpg": "/KanchiSarees/static/media/saree6.24c15b1439c48d62d76f.jpg",
+    "static/media/saree4.jpg": "/KanchiSarees/static/media/saree4.3228df31867a6d6fc092.jpg",
+    "static/media/saree11.jpg": "/KanchiSarees/static/media/saree11.f8f77a1765241433b42b.jpg",
+    "static/media/saree2.jpg": "/KanchiSarees/static/media/saree2.1d08bf5f1bc0a7cca197.jpg",
+    "static/media/saree7.jpg": "/KanchiSarees/static/media/saree7.940c4ff1fa3275d6cada.jpg",
+    "static/media/saree5.jpg": "/KanchiSarees/static/media/saree5.596a0c2190a5382ded01.jpg",
+    "static/media/Mainbg1.jpg": "/KanchiSarees/static/media/Mainbg1.7a422c91ff1fcf406d60.jpg",
+    "static/media/logo.jpg": "/KanchiSarees/static/media/logo.994662934b8afa95c74d.jpg",
+    "index.html": "/KanchiSarees/index.html",
+    "main.e4deb5a1.css.map": "/KanchiSarees/static/css/main.e4deb5a1.css.map",
+    "main.50e85d2d.js.map": "/KanchiSarees/static/js/main.50e85d2d.js.map",
+    "511.bab9b3b7.chunk.js.map": "/KanchiSarees/static/js/511.bab9b3b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4deb5a1.css",
+    "static/js/main.50e85d2d.js"
+  ]
+}
