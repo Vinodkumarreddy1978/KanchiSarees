@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const to = ['/KanchiSarees', '/products', '/contact']
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

@@ -16,7 +16,7 @@ function GalleryItem({src}){
         <div className='overflow-hidden border border-0 rounded-lg p-10'>
             <div className='overflow-hidden rounded-lg'>
             <img src={src} alt={src} width='250rem' height='500px' className='border border-0  transition-transform duration-300 hover:scale-125 '/>
-        </div>86
+        </div>
         </div>
     )
 }
@@ -26,10 +26,10 @@ function Main() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     return (
         <div className='w-full Main'>
-            <div className='h-screen flex flex-col justify-center items-center gap-10 mainbg text-white'>
+            <div className='h-screen flex flex-col justify-center items-center mainbg text-white'>
                 <div className=''>
                     <h1 className='text-center font-bold text-4xl lg:text-6xl'>SHRI VAIBHAVI SILKS</h1>
-                    <h1 className='text-center text-xl italic pt-10 lg:text-2xl'><span className='font-bold'>Sarees</span> truly are dresses with a soul</h1>
+                    <h1 className='text-center text-xl italic p-6 lg:text-2xl'><span className='font-bold'>Sarees</span> truly are dresses with a soul</h1>
                 </div>
                 <div className='flex justify-center w-full'>
                     <img src={Logo}  className='MainLogo rounded-3xl' alt='logo' /> 
