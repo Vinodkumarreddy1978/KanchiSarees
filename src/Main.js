@@ -8,7 +8,9 @@ import logo4 from './images/saree4.jpg';
 function GalleryItem({src}){
     return(
         <div className='overflow-hidden border border-0 rounded-lg p-10'>
-            <img src={src} alt={src} width='250rem' height='500px' className='border border-0 rounded-lg transition-transform duration-300 hover:scale-125 '/>
+            <div className='overflow-hidden rounded-lg'>
+            <img src={src} alt={src} width='250rem' height='500px' className='border border-0  transition-transform duration-300 hover:scale-125 '/>
+        </div>
         </div>
     )
 }
@@ -17,22 +19,23 @@ function Main() {
     const  images = [logo1, logo2, logo3, logo4]
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     return (
-        <div className='w-full Main mt-24'>
-            <div>
-                <h3 className='text-center font-bold text-5xl'>Welcome To</h3>
-                <h1 className='text-center font-bold text-5xl'>SHRI VAIBHAVI SILKS</h1>
-            </div>
-            <div className='flex justify-center w-full p-6'>
-                <img src={Logo}  className='MainLogo w-60 rounded-3xl' alt='logo' />
-                
+        <div className='w-full Main'>
+            <div className='h-screen flex flex-col justify-center items-center gap-10 mainbg text-white'>
+                <div className=''>
+                    <h1 className='text-center font-bold text-4xl lg:text-6xl'>SHRI VAIBHAVI SILKS</h1>
+                    <h1 className='text-center text-xl italic pt-10 lg:text-2xl'><span className='font-bold'>Sarees</span> truly are dresses with a soul</h1>
+                </div>
+                <div className='flex justify-center w-full'>
+                    <img src={Logo}  className='MainLogo rounded-3xl' alt='logo' /> 
+                </div>
             </div>
             <div className='p-6'>
-                <h2 className='font-bold text-3xl'>About Us</h2>
+                <h2 className='font-bold text-3xl mt-10'>About Us</h2>
                 <p>{text}</p>
             </div>
             <div className='w-full p-6 '>
                 <h2 className='font-bold text-3xl'>Our Top  Sarees</h2>
-                <div className='gallery w-full h-auto min-h-screen grid grid-cols-1 ml-2 gap-10 md:grid-cols-2 lg:grid-cols-4 sm:gap-10px '>
+                <div className='gallery w-full h-auto min-h-screen grid grid-cols-1 ml-2 gap-10 md:grid-cols-2 lg:grid-cols-4 sm:gap-10px z-0'>
                     {images.map((image) => <GalleryItem key={image} src={image}/>)}
                 </div>
             </div>

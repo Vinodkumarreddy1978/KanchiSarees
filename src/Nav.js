@@ -12,14 +12,14 @@ function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className='fixed left-0 top-0 right-0 w-full bg-amber-950'>
+    <div className='fixed left-0 top-0 right-0 w-full bg-amber-950 z-10'>
       <nav className="Nav p-4 flex justify-center relative items-center">
         <div className='absolute left-5 lg:block md:hidden sm:hidden Logo'>
           <Link to="/">
           <img src={Logo} alt="Logo" className="h-12 rounded-3xl" />
           </Link>
         </div>
-        <h1 className={`lg:text-3xl font-bold uppercase md:text-xl sm:text-sm`}>Shri Vaibhavi Silks</h1>
+        <h1 className={`lg:text-3xl font-bold uppercase md:text-xl sm:text-sm radient`}>Shri Vaibhavi Silks</h1>
         <div className="block lg:hidden absolute right-5">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
