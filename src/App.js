@@ -19,8 +19,8 @@ function App() {
     <BrowserRouter basename="">
       <Routes>
         <Route path="/KanchiSarees" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/products" element={<Product />} /> 
+        <Route path="/KanchiSarees/contact" element={<Contact />} />
+        <Route path="/KanchiSarees/products" element={<Product />} /> 
       </Routes>
     </BrowserRouter>
   );
