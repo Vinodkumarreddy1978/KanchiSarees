@@ -7,6 +7,7 @@ import Main from './Main'
 function Home(){
   return (
     <div className="w-full App overflow-auto touch-auto">
+      
       <Nav/>  
       <Main />
     </div>
