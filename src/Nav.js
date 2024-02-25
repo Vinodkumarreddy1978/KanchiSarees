@@ -67,10 +67,10 @@ function Nav() {
               <Link to="/KanchiSarees" className="text-white px-3 py-2 block border-b-4">Home</Link>
             </li>
             <li>
-              <Link to="/products" className="text-white px-3 py-2 block block border-b-4">Products</Link>
+              <Link to="/KanchiSarees/products" className="text-white px-3 py-2 block block border-b-4">Products</Link>
             </li>
             <li>
-              <Link to="/contact" className="text-white px-3 py-2 block block border-b-4">Contact</Link>
+              <Link to="/KanchiSarees/contact" className="text-white px-3 py-2 block block border-b-4">Contact</Link>
             </li>
           </ul>
         </div>
