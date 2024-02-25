@@ -1,16 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+body{
+  font-family:  'Copperplate', sans-serif;
 }
 
 
-
-/* .Nav{
-  background-color:#ffffff;
-  
-}  */
+.App,.Product, .Contact{
+  /* background-color: rgb(232, 192, 136); */
+  background-image: radial-gradient(yellow,#F27900);
+  background-size: cover;
+  position: static;
+  scroll-behavior: smooth;
+}
 
 .Nav h1{
   border-radius: 10px;
@@ -31,6 +33,21 @@
 .nav-links ul li:hover::after{
   width: 100%;
 }
+
+ #Menu2{
+  height: 100vh;
+  top: 0;
+  border: 2px solid black;
+}
+.Menu ul{
+  height: 800px;
+}
+
+#Menu2{
+  background: linear-gradient(45deg, rgb(233, 148, 10), rgb(255, 115, 0));
+  width: 300px
+}
+
 .mainbg{
   background-image: url('./images/Mainbg1.jpg');
   background-size: cover;

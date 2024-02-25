@@ -1,8 +1,8 @@
+import Product from "./products";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./Nav";
-import Main from './Main'
-import Product from "./products";
 import Contact from "./contact";
+import Main from './Main'
 
 function Home(){
   return (
@@ -16,11 +16,11 @@ function Home(){
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="">
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<Product />} /> 
+        <Route path="/KanchiSarees" element={<Home />} />
+        <Route path="/KanchiSarees/contact" element={<Contact />} />
+        <Route path="/KanchiSarees/products" element={<Product />} /> 
       </Routes>
     </BrowserRouter>
   );
