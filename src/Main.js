@@ -26,9 +26,9 @@ function Main() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     return (
         <div className='w-full Main'>
-            <div className='h-screen flex flex-col justify-center items-center mainbg text-white'>
-                <div className=''>
-                    <h1 className='text-center font-bold text-4xl lg:text-6xl mt-10'>SHRI VAIBHAVI SILKS</h1>
+            <div className='h-screen flex flex-col justify-center items-center mainbg text-white '>
+                <div className='mt-10'>
+                    <h1 className='text-center font-bold text-4xl lg:text-6xl'>SHRI VAIBHAVI SILKS</h1>
                     <h1 className='text-center text-xl italic p-6 lg:text-2xl'><span className='font-bold'>Sarees</span> truly are dresses with a soul</h1>
                 </div>
                 <div className='flex justify-center w-full'>
@@ -41,7 +41,7 @@ function Main() {
             </div>
             <div className='w-full p-6 '>
                 <h2 className='font-bold text-3xl'>Our Top  Sarees</h2>
-                <div className='gallery w-full h-auto min-h-screen grid grid-cols-1 ml-2 gap-10 md:grid-cols-2 lg:grid-cols-4 sm:gap-10px z-0'>
+                <div className='gallery w-full flex flex-wrap lg:flex-nowrap md:flex-nowrap justify-center items-center'>
                     {images.map((image) => <GalleryItem key={image} src={image}/>)}
                 </div>
 
