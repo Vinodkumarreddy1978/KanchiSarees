@@ -36,8 +36,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className='ConatctFooter w-full bg-zinc-900 flex flex-col h-4/5 justify-center items-center p-10'>
-        <div className='flex flex-row gap-24'>
+      <div className='ConatctFooter w-full bg-zinc-900 flex flex-col h-4/5 justify-center items-center p-10 '>
+        <div className='flex flex-row lg:gap-24 md:gap-14 gap-6'>
           <SocialIcon url='https://twitter.com' className=' hover:animate-pulse' />
           <SocialIcon url='https://instagram.com' className=' hover:animate-pulse' />
           <SocialIcon url='https://whatsapp.com' className=' hover:animate-pulse' />
