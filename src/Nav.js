@@ -12,7 +12,7 @@ function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className='fixed left-0 top-0 right-0 w-full bg-amber-950 z-10'>
+    <div className='fixed left-0 top-0 right-0 w-full bg-white z-10'>
       <nav className="Nav p-4 flex justify-center relative items-center">
         <div className='absolute left-5 lg:block md:hidden sm:hidden Logo'>
           <Link to="/">
