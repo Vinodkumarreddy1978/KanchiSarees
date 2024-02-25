@@ -58,7 +58,7 @@ function Product()
   return(
     <div className="Product overflow-auto touch-auto">
       <Nav />
-      <div className="flex min-h-screen grid grid-cols-1 ml-2 gap-10 lg:grid-cols-3 lg:ml-20 mt-24 mb-24">
+      <div className=" min-h-screen flex justify-center items-center flex-wrap gap-8 mt-24">
           {images.map(image => <div><ProductCard name={image.name} rating={image.rating} price={image.price} imageUrl={image.url}/></div>)}
       </div> 
     </div>
