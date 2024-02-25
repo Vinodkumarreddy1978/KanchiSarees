@@ -47,3 +47,12 @@ body{
   width: 300px
 }
 
+.mainbg{
+  background-image: url('./images/Mainbg1.jpg');
+  background-size: cover;
+}
+.radient{
+  background: linear-gradient(to right,#ffe100 0%,#ff0800 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
