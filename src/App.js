@@ -1,10 +1,12 @@
+import Product from "./products";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./Nav";
+import Contact from "./contact";
 import Main from './Main'
 
 function Home(){
   return (
-    <div className="h-screen w-full App overflow-auto touch-auto">
+    <div className="w-full App overflow-auto touch-auto">
       <Nav/>  
       <Main />
     </div>
@@ -13,10 +15,11 @@ function Home(){
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes><Route path="/" element={<Home />} />
-          {/* <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<Products />} /> */}
+    <BrowserRouter basename="">
+      <Routes>
+        <Route path="/KanchiSarees" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Product />} /> 
       </Routes>
     </BrowserRouter>
   );
